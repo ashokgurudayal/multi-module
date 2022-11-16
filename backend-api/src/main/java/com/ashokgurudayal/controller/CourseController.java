@@ -13,7 +13,7 @@ public class CourseController {
     @Autowired
     CourseServiceImpl courseServiceImpl;
 
-    @PostMapping("/")
+    @PostMapping("/addcourse")
     public void addCourse(@RequestBody Course course) {
         courseServiceImpl.addCourse(course);
     }
