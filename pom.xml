@@ -17,6 +17,7 @@
 
     <modules>
         <module>backend-api</module>
+        <module>frontend-react</module>
     </modules>
 
 </project>
