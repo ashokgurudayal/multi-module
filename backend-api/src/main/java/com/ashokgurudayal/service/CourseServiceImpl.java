@@ -9,8 +9,10 @@ import java.util.HashSet;
 public class CourseServiceImpl implements CourseService {
 
     HashSet<Course> courseList = new HashSet<Course>();
+
     @Override
     public HashSet<Course> findAllCourse() {
+        System.out.println("get called");
         if (courseList.isEmpty())
             return null;
         else
